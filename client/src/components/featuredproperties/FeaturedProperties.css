@@ -1,0 +1,46 @@
+.featuredProperty{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.featuredPropertyItem{
+    flex: 1;
+    gap: 10px;
+    line-height: 30px;
+}
+
+.featurePropertyImage{
+    width: 100%;
+}
+
+.featuredPropertyName{
+    font-weight: bold;
+    color: green;
+}
+
+.featuredPropertyCity{
+    font-weight: 400;
+}
+
+.featuredPropertyPrice{
+    font-weight: 600;
+}
+
+.featurePropertyRate>Button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 4px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.featurePropertyRate>span{
+    font-size: 14px;
+    color: #198754;
+    font-weight: 500;
+}
+
